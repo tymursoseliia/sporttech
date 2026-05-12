@@ -7,7 +7,7 @@ export default function Footer() {
       <div className={`container ${styles.footerContainer}`}>
         <div className={styles.footerCol}>
           <div className={styles.logo}>
-            SPORT<span className={styles.logoAccent}>TECH</span>
+            СПОРТ<span className={styles.logoAccent}>ТЕХ</span>
           </div>
           <p className={styles.desc}>
             Надежный пригон автомобилей из Европы в Россию под ключ. Гарантия юридической чистоты и прозрачности сделки.
@@ -36,6 +36,7 @@ export default function Footer() {
           <div className={styles.socials}>
             <a href="#" className={styles.socialLink}>Telegram</a>
             <a href="#" className={styles.socialLink}>WhatsApp</a>
+            <a href="#" className={styles.socialLink}>Max</a>
           </div>
         </div>
       </div>
@@ -44,7 +45,7 @@ export default function Footer() {
         <div className="container">
           <p>ООО «СПОРТТЕХ» | ИНН 1234567890 | ОГРН 1234567890123</p>
           <p>Информация, представленная на сайте, не является публичной офертой.</p>
-          <p>&copy; 2026 SPORTTECH. Все права защищены.</p>
+          <p>&copy; 2026 СПОРТТЕХ. Все права защищены.</p>
         </div>
       </div>
     </footer>

@@ -3,7 +3,7 @@ import Image from "next/image";
 import styles from "./page.module.css";
 
 export const metadata: Metadata = {
-  title: "О компании | Sport-Tech",
+  title: "О компании | Спорт-Тех",
   description: "Надежный партнер по пригону автомобилей из Европы. Работаем официально, по договору. Гарантия юридической чистоты.",
 };
 
@@ -13,7 +13,7 @@ export default function AboutPage() {
       {/* Hero */}
       <section className={styles.aboutHero}>
         <div className={`container ${styles.heroContainer}`}>
-          <h1 className="section-title">О компании SPORT<span style={{ color: 'var(--accent-orange)' }}>TECH</span></h1>
+          <h1 className="section-title">О компании СПОРТ<span style={{ color: 'var(--accent-orange)' }}>ТЕХ</span></h1>
           <p className="section-subtitle">Мы делаем покупку автомобиля в Европе безопасной, понятной и выгодной.</p>
         </div>
       </section>

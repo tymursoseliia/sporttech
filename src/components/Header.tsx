@@ -7,7 +7,7 @@ export default function Header() {
       <div className={`container ${styles.headerContainer}`}>
         <div className={styles.logo}>
           <Link href="/">
-            SPORT<span className={styles.logoAccent}>TECH</span>
+            СПОРТ<span className={styles.logoAccent}>ТЕХ</span>
           </Link>
         </div>
         

@@ -3,7 +3,7 @@ import Image from "next/image";
 import styles from "./page.module.css";
 
 export const metadata: Metadata = {
-  title: "Команда | Sport-Tech",
+  title: "Команда | Спорт-Тех",
   description: "Познакомьтесь с командой экспертов Sport-Tech. Мы знаем всё о подборе, таможне и доставке автомобилей из Европы.",
 };
 
