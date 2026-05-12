@@ -16,6 +16,7 @@ export default function Header() {
             <li><Link href="/" className={styles.navLink}>Главная</Link></li>
             <li><Link href="/catalog" className={styles.navLink}>Каталог</Link></li>
             <li><Link href="/services" className={styles.navLink}>Услуги</Link></li>
+            <li><Link href="/team" className={styles.navLink}>Команда</Link></li>
             <li><Link href="/about" className={styles.navLink}>О компании</Link></li>
             <li><Link href="/calculator" className={styles.navLink}>Калькулятор</Link></li>
             <li><Link href="/contacts" className={styles.navLink}>Контакты</Link></li>

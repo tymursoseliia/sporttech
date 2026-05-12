@@ -20,6 +20,7 @@ export default function Footer() {
             <li><Link href="/">Главная</Link></li>
             <li><Link href="/catalog">Каталог</Link></li>
             <li><Link href="/services">Услуги</Link></li>
+            <li><Link href="/team">Команда</Link></li>
             <li><Link href="/about">О компании</Link></li>
             <li><Link href="/calculator">Калькулятор</Link></li>
           </ul>
@@ -43,7 +44,7 @@ export default function Footer() {
         <div className="container">
           <p>ООО «СПОРТТЕХ» | ИНН 1234567890 | ОГРН 1234567890123</p>
           <p>Информация, представленная на сайте, не является публичной офертой.</p>
-          <p>&copy; {new Date().getFullYear()} SPORTTECH. Все права защищены.</p>
+          <p>&copy; 2026 SPORTTECH. Все права защищены.</p>
         </div>
       </div>
     </footer>

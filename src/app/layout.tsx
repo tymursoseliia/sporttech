@@ -13,6 +13,11 @@ const montserrat = Montserrat({
 export const metadata: Metadata = {
   title: "Пригон авто из Европы под ключ | Sport-Tech",
   description: "Надежный пригон автомобилей из Европы в Россию под ключ. Полное юридическое сопровождение, прозрачные цены, доставка и растаможка. Получите подборку авто уже сегодня!",
+  icons: {
+    icon: "/sport-tech-logo.jpg",
+    shortcut: "/sport-tech-logo.jpg",
+    apple: "/sport-tech-logo.jpg",
+  },
 };
 
 export default function RootLayout({
